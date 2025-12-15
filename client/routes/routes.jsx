@@ -27,16 +27,20 @@ export default function RoutesConfig() {
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/profile" element={<div>Profile Page</div>} />
             <Route path="/vehicles" element={<Vehicles />} />
+            <Route path="/assign-inspectors" element={<div>Assign-inspectors Page</div>} />
+            <Route path="/inspector-availability" element={<div>Inspector-availability Page</div>} />
+            <Route path="/inspections" element={<div>Inspections Page</div>} />
+
             <Route path="/users" element={<Members />} />
             <Route path="/requests" element={<Requests />} />
-            <Route path="/report" element={<div>Report Page</div>} />
+            <Route path="/reports" element={<div>Report Page</div>} />
             <Route path="/edit-requests" element={<div>Edit-requests Page</div>} />
             <Route path="/delete-requests" element={<div>Delete-requests Page</div>} />
-            <Route path="/masters/sales" element={<div>Sales Page</div>} />
-            <Route path="/masters/stock" element={<div>Stock Page</div>} />
-            <Route path="/masters/club" element={<div>Club Page</div>} />
+            <Route path="/masters/vehicle-types" element={<div>Vehicle-types Page</div>} />
+            <Route path="/masters/inspection-types" element={<div>Inspection-types Page</div>} />
+            <Route path="/masters/pricing" element={<div>Pricing Page</div>} />
             <Route path="/masters/roles" element={<div>Roles Page</div>} />
-            
+
           </Route>
         </Route>
 

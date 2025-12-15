@@ -1,18 +1,24 @@
 import React from "react";
 import DynamicTable from "../components/table-format/DynamicTable";
+import { useDispatch, useSelector } from "react-redux";
 
 const Members = () => {
+
+
+
+
+  const { user } = useSelector((state) => state.auth);
+  const loginRole = user?.role_name;
   // 🔹 Table Columns
   const columns = [
-    { id: "id", label: "ID" },
     { id: "name", label: "Member Name" },
     { id: "role", label: "Role" },
     { id: "email", label: "Email" },
     { id: "phone", label: "Phone" },
     { id: "status", label: "Status" },
-    { id: "view", label: "View" },
-    { id: "action", label: "Action" },
+
   ];
+
 
   // 🔹 10 Dummy Members
   const members = [

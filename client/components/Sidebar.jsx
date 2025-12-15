@@ -51,6 +51,8 @@ const roleMenus = {
 
   Marketing: [
     { icon: LayoutDashboard, label: "Dashboard", path: "/dashboard" },
+        { icon: Users, label: "Users / Roles", path: "/users" },
+
     { icon: Users, label: "Create Lead", path: "/leads/create" },
     { icon: FileText, label: "Follow-ups", path: "/followups" },
     { icon: Car, label: "Assign Vehicle", path: "/assign-vehicle" },
