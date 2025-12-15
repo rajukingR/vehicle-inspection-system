@@ -9,6 +9,7 @@ const store = configureStore({
   reducer: {
     auth: authReducer,
   },
+  
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({ thunk: false }).concat(sagaMiddleware),
 });
