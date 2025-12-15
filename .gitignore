@@ -1,9 +1,14 @@
 # =====================
-# Environment files ❌ DO NOT PUSH
+# Environment files ❌
 # =====================
 .env
 .env.*
 !.env.example
+
+# =====================
+# Dependency lock file ❌
+# =====================
+package-lock.json
 
 # =====================
 # Logs
@@ -17,7 +22,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # =====================
-# Build output
+# Dependencies & build
 # =====================
 node_modules
 dist
@@ -25,7 +30,7 @@ dist-ssr
 *.local
 
 # =====================
-# Editor directories
+# Editor / OS files
 # =====================
 .vscode/*
 !.vscode/extensions.json
